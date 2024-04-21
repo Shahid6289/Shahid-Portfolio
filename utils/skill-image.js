@@ -32,6 +32,7 @@ import tensorflow from '/public/svg/skills/tensorflow.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import nodejs from '/public/svg/skills/nodejs.svg';
 import springboot from '/public/svg/skills/springboot.svg';
+import nextJS from '/public/svg/skills/nextJS.svg';
 
 
 export const skillsImage = (skill) => {
@@ -47,6 +48,8 @@ export const skillsImage = (skill) => {
       return docker;
     case 'node js':
       return nodejs;
+    case 'next js':
+      return nextJS;
     case 'css':
       return css;
     case 'javascript':

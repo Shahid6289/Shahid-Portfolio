@@ -32,6 +32,7 @@ export const skillsData = [
   'C++',
   'Canva',
   'Spring Boot',
+  'Next JS',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
