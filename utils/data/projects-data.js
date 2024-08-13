@@ -1,5 +1,6 @@
 import crefin from '/public/image/crefin.jpg';
 import travel from '/public/image/travel.jpg';
+import realEstate from '/public/image/real-estate.jpg';
 
 export const projectsData = [
     {
@@ -14,7 +15,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Employee Management App',
+        name: 'Employee Management System',
         description: 'I have designed and developed a full-stack web app for employee management. I created the UI using ReactJS, JavaScript, MUI, TailwindCSS, Google Maps, and React Slick. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
         tools: ['Tailwind CSS', "Google Maps", "NextJS", "JavaScript", "MySQL", "AWS S3", "Gmail Passkey", "Spring Boot", "AWS EC2", "AWS Amplify", "Java"],
         role: 'Full Stack Developer',
@@ -22,16 +23,16 @@ export const projectsData = [
         demo: '',
         image: travel,
     },
-    // {
-    //     id: 3,
-    //     name: 'AI Powered Real Estate',
-    //     description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-    //     tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-    //     code: '',
-    //     role: 'Full Stack Developer',
-    //     demo: '',
-    //     image: realEstate,
-    // },
+    {
+        id: 3,
+        name: 'Twitter App Clone with Flutter',
+        description: 'This project aims to provide users with a social media platform where they can share updates, follow others, and engage with posts through likes, comments, and retweets. By leveraging Flutter, a UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase, the app will offer a seamless, high-performance user experience on both iOS and Android devices.',
+        tools: ['Flutter', 'Dart', 'Firebase', 'AWS EC2', 'OpenAI API', 'PostgreSQL', 'JWT'],
+        code: '',
+        role: 'Full Stack Developer',
+        demo: '',
+        image: realEstate,
+    }
     // {
     //     id: 4,
     //     name: 'Newsroom Management',
